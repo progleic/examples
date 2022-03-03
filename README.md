@@ -1,5 +1,8 @@
 # Examples [![Run on Repl.it](run_on_replit.svg)](https://repl.it/github/progleic/examples)
 
+To compile the programs, execute `make` at the top level directory
+or individually per each directory of examples.
+
 ## Hello C++
 
 - ["Hello world!"](https://github.com/progleic/examples/blob/main/01/hello.cpp)
