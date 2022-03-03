@@ -5,6 +5,7 @@ CXXFLAGS= -g \
           -Werror \
           -fsanitize=address \
           -fsanitize=undefined \
+	  -pedantic
 
 LDFLAGS=-lm
 
