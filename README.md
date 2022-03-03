@@ -1,7 +1,5 @@
 # Examples
 
-Source code examples from [Programação (L.EIC009)](https://moodle.up.pt/course/view.php?id=4082)
-
 ## Hello C++
 
 - ["Hello world!"](https://github.com/progleic/examples/blob/main/01/hello.cpp)
