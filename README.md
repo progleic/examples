@@ -1,4 +1,4 @@
-# Examples
+# Examples [![Run on Repl.it](run_on_replit.svg)](https://repl.it/github/progleic/examples)
 
 ## Hello C++
 
