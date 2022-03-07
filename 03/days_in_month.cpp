@@ -98,7 +98,7 @@ int main() {
   cout << "year? "; cin >> y;
   for (int m = 1; m <= 12; m++) {
     int d = days_in_month(m, y);
-    cout << m << '/' << " has " << d << " days\n";
+    cout << m << '/' << y << " has " << d << " days\n";
   }
   return 0;
 }
