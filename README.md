@@ -12,9 +12,10 @@ or individually per each directory of examples.
 
 ## Control flow
 
+- [Factorial (again)](https://github.com/progleic/examples/blob/main/03/factorial.cpp) (`factorial`)
 - [Maximum of two `int` values](https://github.com/progleic/examples/blob/main/03/max.cpp) (`max`)
 - [Leap years](https://github.com/progleic/examples/blob/main/03/is_leap_year.cpp) (`is_leap_year`)
 - [Days in a month](https://github.com/progleic/examples/blob/main/03/days_in_month.cpp) (`days_in_month`)
 - [Prime number check](https://github.com/progleic/examples/blob/main/03/days_in_month.cpp) (`is_prime`)
-- [Factorial (again)](https://github.com/progleic/examples/blob/main/03/factorial.cpp) (`factorial`)
+
 
