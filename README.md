@@ -10,6 +10,10 @@ or individually per each directory of examples.
 - ["Hello world!" - variant with chaotic indentation](https://github.com/progleic/examples/blob/main/01/hello-not-indented.cpp)
 - [Factorial](https://github.com/progleic/examples/blob/main/01/factorial.cpp)
 
+## Primitive types
+
+- [Primitive int types - representation size and constants defined by `<climits>`](https://github.com/progleic/examples/blob/main/02/sizeof_and_climits.cpp))
+
 ## Control flow
 
 - [Factorial (again)](https://github.com/progleic/examples/blob/main/03/factorial.cpp) (`factorial`)
