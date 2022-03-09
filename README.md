@@ -12,7 +12,7 @@ or individually per each directory of examples.
 
 ## Variables, primitive types, expressions
 
-- [Primitive integer types - representation size and constants defined by `<climits>`](https://github.com/progleic/examples/blob/main/02/sizeof_and_climits.cpp))
+- [Primitive integer types - representation size and constants defined by `<climits>`](https://github.com/progleic/examples/blob/main/02/sizeof_and_climits.cpp)
 
 ## Control flow
 
