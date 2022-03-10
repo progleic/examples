@@ -10,7 +10,7 @@ CXXFLAGS= -g \
 LDFLAGS=-lm
 
 PROGRAMS= days_in_month factorial is_leap_year is_prime max \
-          reference_variables call_by_reference
+          reference_variables get_min_max
 
 all: $(PROGRAMS)
 
