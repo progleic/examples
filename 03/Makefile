@@ -9,7 +9,8 @@ CXXFLAGS= -g \
 
 LDFLAGS=-lm
 
-PROGRAMS= days_in_month factorial is_leap_year is_prime max
+PROGRAMS= days_in_month factorial is_leap_year is_prime max \
+          reference_variables call_by_reference
 
 all: $(PROGRAMS)
 

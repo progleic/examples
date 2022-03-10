@@ -22,5 +22,7 @@ or individually per each directory of examples.
 - [Leap years](https://github.com/progleic/examples/blob/main/03/is_leap_year.cpp) (`is_leap_year`)
 - [Days in a month](https://github.com/progleic/examples/blob/main/03/days_in_month.cpp) (`days_in_month`)
 - [Prime number check](https://github.com/progleic/examples/blob/main/03/days_in_month.cpp) (`is_prime`)
+- [Reference variables](https://github.com/progleic/examples/blob/main/03/reference_variables.cpp) 
+- [Call-by-reference](https://github.com/progleic/examples/blob/main/03/call_by_reference.cpp)  (`get_min_max`)
 
 
