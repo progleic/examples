@@ -9,7 +9,7 @@ CXXFLAGS= -g \
 
 LDFLAGS=-lm
 
-PROGRAMS= sizeof_and_climits
+PROGRAMS= sizeof_and_climits auto
 
 all: $(PROGRAMS)
 
