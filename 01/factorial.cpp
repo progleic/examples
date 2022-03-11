@@ -6,7 +6,7 @@ int factorial(int n) {
   for (int i = 1; i <= n; i++) r = r * i; 
   return r;
 }
-
+ 
 int main() {
   int n;
   cout << "n ? ";

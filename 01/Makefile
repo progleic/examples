@@ -1,13 +1,4 @@
-CXX=g++
-CXXFLAGS= -g \
-          -std=c++11 \
-          -Wall \
-          -Werror \
-          -fsanitize=address \
-          -fsanitize=undefined \
-	  -pedantic
-
-LDFLAGS=-lm
+include ../Makefile.conf
 
 PROGRAMS=hello hello2 hello-not-indented factorial
 
