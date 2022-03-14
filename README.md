@@ -33,5 +33,5 @@ or individually per each directory of examples.
 - [`interval` struct type](https://github.com/progleic/examples/blob/main/04/interval.cpp)
 - [`struct` memory alignment and padding](https://github.com/progleic/examples/blob/main/04/struct_alignment.cpp)
 - [`reverse` function over `int` arrays](https://github.com/progleic/examples/blob/main/04/reverse.cpp)
-- [`length`, `copy` and `concat` C-string functions](https://github.com/progleic/examples/blob/main/04/cstring_functins.cpp)
+- [`length`, `copy` and `concat` C-string functions](https://github.com/progleic/examples/blob/main/04/cstring_functions.cpp)
 
