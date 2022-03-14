@@ -27,4 +27,11 @@ or individually per each directory of examples.
 - [Reference variables](https://github.com/progleic/examples/blob/main/03/reference_variables.cpp) 
 - [Call-by-reference](https://github.com/progleic/examples/blob/main/03/get_min_max.cpp)  (`get_min_max`)
 
+## `struct` types, arrays, C-strings
+
+- [`point2d` struct type](https://github.com/progleic/examples/blob/main/04/point2d.cpp)
+- [`interval` struct type](https://github.com/progleic/examples/blob/main/04/interval.cpp)
+- [`struct` memory alignment and padding](https://github.com/progleic/examples/blob/main/04/struct_alignment.cpp)
+- [`reverse` function over `int` arrays](https://github.com/progleic/examples/blob/main/04/reverse.cpp)
+- [`length`, `copy` and `concat` C-string functions](https://github.com/progleic/examples/blob/main/04/cstring_functins.cpp)
 
