@@ -13,7 +13,8 @@ struct interval {
 };
 
 void print(const char v[], const interval& il) {
-  cout << v << ": " << il.id << ' ' 
+  cout << v << ": " 
+       << il.id << ' ' 
        << (int) il.start.h << ':' << (int) il.start.m << ' '
        << (int) il.end.h   << ':' << (int) il.end.m << '\n';
 }

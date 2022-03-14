@@ -30,17 +30,20 @@ void concat(char dst[], const char src[]) {
 }
 
 int main() {
-  
   char s[12 + 1]; 
+
   copy(s, "Prog");
   concat(s, "#LEIC");
   concat(s, "@UP");
+
   cout << length(s) << ' ' << s << '\n'; 
 
   // Now using library functions
+
   strcpy(s, "Prog");
   strcat(s, "#LEIC");
   strcat(s, "@UP");
+
   cout << strlen(s) << ' ' <<  s << '\n'; 
  
   return 0;
