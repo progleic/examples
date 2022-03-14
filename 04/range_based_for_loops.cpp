@@ -9,7 +9,6 @@ void print(const int a[], int n) {
 }
 
 int main() {
-
   int a[4] { 1, 2, 3, 4 };
   print(a, 4);
 
@@ -21,5 +20,4 @@ int main() {
   cout << n << '\n';
 
   return 0;
-  
 }
