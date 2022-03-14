@@ -32,6 +32,7 @@ or individually per each directory of examples.
 - [`point2d` struct type](https://github.com/progleic/examples/blob/main/04/point2d.cpp)
 - [`interval` struct type](https://github.com/progleic/examples/blob/main/04/interval.cpp)
 - [`struct` memory alignment and padding](https://github.com/progleic/examples/blob/main/04/struct_alignment.cpp)
+- [`struct` types and arrays combined](https://github.com/progleic/examples/blob/main/04/structs_and_arrays.cpp)
 - [`reverse` function over `int` arrays](https://github.com/progleic/examples/blob/main/04/reverse.cpp)
 - [`length`, `copy` and `concat` C-string functions](https://github.com/progleic/examples/blob/main/04/cstring_functions.cpp)
 
