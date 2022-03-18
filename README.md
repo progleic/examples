@@ -36,4 +36,6 @@ or individually per each directory of examples.
 - [`reverse` function over `int` arrays](https://github.com/progleic/examples/blob/main/04/reverse.cpp)
 - [`length`, `copy` and `concat` C-string functions](https://github.com/progleic/examples/blob/main/04/cstring_functions.cpp)
 - [Range-based `for` loops](https://github.com/progleic/examples/blob/main/04/range_based_for_loops.cpp)
+- [Buffer overflow - example 1](https://github.com/progleic/examples/blob/main/04/buffer_overflow_1.cpp)
+- [Buffer overflow - example 2](https://github.com/progleic/examples/blob/main/04/buffer_overflow_2.cpp)
 
