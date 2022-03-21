@@ -25,11 +25,8 @@ int main() {
   point2d a { 1.2, 3.4 };
   cout << "a: " << a.x << ' ' << a.y << '\n';
 
-  point2d b { .y = 3.4, .x = 1.2 };
-  cout << "b: " << b.x << ' ' << b.y << '\n';
-
-  point2d c = b;
-  cout << "c: " << c.x << ' ' << c.y << '\n';
+  point2d b = a;
+  cout << "b: " << a.x << ' ' << b.y << '\n';
 
   point2d s1 = sum(a,b);
   cout << "s1: " << s1.x << ' ' << s1.y << '\n';

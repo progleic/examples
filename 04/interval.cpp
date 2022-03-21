@@ -25,15 +25,8 @@ int main() {
   interval a { 1, { 17, 30 }, {18, 30} };
   print("a", a);
 
-  interval b { 
-     .id  = 1, 
-     .start = { .h = 17, .m = 30 }, 
-     .end   = { .h = 18, .m = 30 } 
-  };
+  interval b = a;
   print("b", b);
-
-  interval c = b;
-  print("c", c);
 
   return 0;
 }
