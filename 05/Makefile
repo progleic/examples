@@ -7,6 +7,7 @@ PROGRAMS= pointer_basics \
  	  main_with_args \
 	  pointers_and_structs \
 	  null_pointer \
+	  null_pointer_access \
 	  main_with_env_args \
 	  pointer_arithmetic \
           cstring_functions \
