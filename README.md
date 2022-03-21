@@ -39,3 +39,17 @@ or individually per each directory of examples.
 - [Buffer overflow - example 1](https://github.com/progleic/examples/blob/main/04/buffer_overflow_1.cpp)
 - [Buffer overflow - example 2](https://github.com/progleic/examples/blob/main/04/buffer_overflow_2.cpp)
 
+## Pointers
+
+- [Pointer basics - the `&` and `*` operators](https://github.com/progleic/examples/blob/main/05/pointer_basics.cpp)
+- [Pointers and arrays](https://github.com/progleic/examples/blob/main/05/pointers_and_arrays.cpp)
+- [Pointers and buffer overflows!](https://github.com/progleic/examples/blob/main/05/pointer_buffer_overflow.cpp)
+- [Arrays of pointers](https://github.com/progleic/examples/blob/main/05/arrays_of_pointers.cpp)
+- [`argc` and `argv` parameters for `main` (another array-of-pointers example](https://github.com/progleic/examples/blob/main/05/main_with_args.cpp)
+- [Pointers and `struct` types](https://github.com/progleic/examples/blob/main/05/pointers_and_structs.cpp)
+- [`nullptr`: the null pointer !](https://github.com/progleic/examples/blob/main/05/null_pointer.cpp)
+- [`envp` parameter for `main` (example of `nullptr` use)](https://github.com/progleic/examples/blob/main/05/main_with_env_args.cpp)
+- [`nullptr` access (don't do it!)](https://github.com/progleic/examples/blob/main/05/null_pointer_access.cpp)
+- [Pointer arithmetic](https://github.com/progleic/examples/blob/main/05/pointer_arithmetic.cpp)
+- [C-string functions making use of pointer arithmetic](https://github.com/progleic/examples/blob/main/05/cstring_functions.cpp)
+- [`reverse` function making use of pointer arithmetic](https://github.com/progleic/examples/blob/main/05/reverse.cpp)
