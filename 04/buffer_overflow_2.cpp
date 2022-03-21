@@ -13,6 +13,6 @@ int main() {
   //  d.n += d.a[4]  <===> d.n += d.n !!
   for (int i = 0; i <= 4; i++) d.n += d.a[i];
 
-  cout << d.n << '\n';
+  cout << "d.n = " << d.n << '\n';
   return 0;
 }
