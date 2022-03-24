@@ -7,7 +7,7 @@ int main() {
   double* arr = new double[n];
   // Read values
   for (int i = 0; i < n; i++) cin >> arr[i];
-  // Print value in reverse order
+  // Print values in reverse order
   for (int i = n - 1; i >= 0; i--) cout << arr[i] << '\n';
   // Free up memory
   delete [] arr;
