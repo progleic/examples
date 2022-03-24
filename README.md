@@ -53,3 +53,8 @@ or individually per each directory of examples.
 - [Pointer arithmetic](https://github.com/progleic/examples/blob/main/05/pointer_arithmetic.cpp)
 - [C-string functions making use of pointer arithmetic](https://github.com/progleic/examples/blob/main/05/cstring_functions.cpp)
 - [`reverse` function making use of pointer arithmetic](https://github.com/progleic/examples/blob/main/05/reverse.cpp)
+
+## Dynamic memory
+
+- ["reverse print" program](https://github.com/progleic/examples/blob/main/06/reverse_print.cpp)
+- [The `simple_vector` data type](https://github.com/progleic/examples/blob/main/06/simple_vector.cpp)
