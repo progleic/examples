@@ -32,6 +32,7 @@ void add(simple_vector* sv, int x) {
     delete [] sv->elements; 
     // Point to new array 
     sv->elements = new_array;
+    sv->capacity = new_capacity;
   }
   sv->elements[sv->size] = x;
   sv->size++;
