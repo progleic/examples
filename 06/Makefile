@@ -1,6 +1,7 @@
 include ../Makefile.conf
 
-PROGRAMS= print_reverse simple_vector \
+PROGRAMS= reverse_print \
+          simple_vector \
 
 all: $(PROGRAMS)
 
