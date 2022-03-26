@@ -1,15 +1,11 @@
 
+DIRS=01 02 03 04 05 06
+
 all:
-	make -C 01
-	make -C 02
-	make -C 03
-	make -C 04
-	make -C 05
-	make -C 06
+	for dir in $(DIRS); do \
+		make -C $$dir; \
+        done;
 clean:
-	make -C 01 clean
-	make -C 02 clean
-	make -C 03 clean
-	make -C 04 clean
-	make -C 05 clean
-	make -C 06 clean
+	for dir in $(DIRS); do \
+		make -C $$dir clean; \
+	done
