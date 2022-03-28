@@ -77,7 +77,7 @@ void remove_first(list* l) {
   node* n = l->first;
   l->first = l->first->next; 
   delete n;
-  if (l->first == nullptr) l->last = nullptr;
+  if (l->size == 0) l->last = nullptr;
   else l->first->prev = nullptr;
 }
 
@@ -88,7 +88,7 @@ void remove_last(list* l) {
   node* n = l->last;
   l->last = l->last->prev; 
   delete n;
-  if (l->last == nullptr) l->first = nullptr;
+  if (l->size == 0) l->first = nullptr;
   else l->last->next = nullptr;
 }
 
