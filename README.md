@@ -58,3 +58,6 @@ or individually per each directory of examples.
 
 - ["reverse print" program](https://github.com/progleic/examples/blob/main/06/reverse_print.cpp)
 - [The `simple_vector` data type](https://github.com/progleic/examples/blob/main/06/simple_vector.cpp)
+- [Singly-linked lists](https://github.com/progleic/examples/blob/main/06/sll.cpp)
+- [Doubly-linked lists](https://github.com/progleic/examples/blob/main/06/dll.cpp)
+- [Binary search trees](https://github.com/progleic/examples/blob/main/06/bst.cpp)
