@@ -35,7 +35,7 @@ void add(simple_vector<T>* sv, T x) {
   if (sv->capacity == sv->size) {
     // Create new array
     int new_capacity = 2 * sv->capacity;
-    T* new_array = new int[new_capacity] ;
+    T* new_array = new T[new_capacity] ;
     // Copy elements from old to new array
     for (int i = 0; i < sv->capacity; i++)
       new_array[i] = sv->elements[i];

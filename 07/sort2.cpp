@@ -8,7 +8,7 @@ struct time_of_day {
 };
 
 bool less_than(time_of_day a, time_of_day b) {
-  return a.h < b.h || (a.h == b.h && a.m < b.m);
+  return ! (a.h < b.h || (a.h == b.h && a.m < b.m));
 }
 
 int main( ) {
