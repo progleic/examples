@@ -61,3 +61,13 @@ or individually per each directory of examples.
 - [Singly-linked lists](https://github.com/progleic/examples/blob/main/06/sll.cpp)
 - [Doubly-linked lists](https://github.com/progleic/examples/blob/main/06/dll.cpp)
 - [Binary search trees](https://github.com/progleic/examples/blob/main/06/bst.cpp)
+
+## Template functions and structs
+
+- [`get_min_max_sum` template function](https://github.com/progleic/examples/blob/main/07/get_min_max_sum.cpp)
+- [`contains` template function](https://github.com/progleic/examples/blob/main/07/contains.cpp)
+- [Use of `std::sort` over `int` array](https://github.com/progleic/examples/blob/main/07/sort1.cpp)
+- [Use of `std::sort` using custom comparison function](https://github.com/progleic/examples/blob/main/07/sort2.cpp)
+- [`point2d` template type and associated functions](https://github.com/progleic/examples/blob/main/07/point2d.cpp)
+- [Use of `std::pair`, `typedef` and `auto`](https://github.com/progleic/examples/blob/main/07/pair.cpp)
+- [`simple_vector` template type](https://github.com/progleic/examples/blob/main/07/simple_vector_template.cpp)
