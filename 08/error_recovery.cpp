@@ -21,7 +21,8 @@ int read_int_v2() {
     if (cin.good())
       break;
     cin.clear(); // clear error flag
-    cin.ignore(1); // skip 1 character and try again
+    cin.ignore(std::numeric_limits<std::streamsize>::max(), 
+               '\n'); // skip rest of the line
   }
   return x;
 }
