@@ -1,0 +1,3 @@
+Line 1 - Sum: 10.2
+Line 2 - Sum: 14.5
+Line 3 - Sum: -2.5
