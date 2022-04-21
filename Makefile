@@ -1,5 +1,5 @@
 
-DIRS=01 02 03 04 05 06 07
+DIRS=01 02 03 04 05 06 07 08
 
 all:
 	for dir in $(DIRS); do \

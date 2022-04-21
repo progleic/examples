@@ -71,3 +71,13 @@ or individually per each directory of examples.
 - [`point2d` template type and associated functions](https://github.com/progleic/examples/blob/main/07/point2d.cpp)
 - [Use of `std::pair`, `typedef` and `auto`](https://github.com/progleic/examples/blob/main/07/pair.cpp)
 - [`simple_vector` template type](https://github.com/progleic/examples/blob/main/07/simple_vector_template.cpp)
+
+## Use of classes and objects - introduction
+
+- [Small code fragments involving `std::string`](https://github.com/progleic/examples/blob/main/08/string_examples.cpp)
+- [`std::string` and range-based `for` loops](https://github.com/progleic/examples/blob/main/08/string_range_based_for_loops.cpp)
+- [Heterogram test - anoter `std::string` example](https://github.com/progleic/examples/blob/main/08/heterogram.cpp)
+- [Read and sort values - example use of `std::vector`](https://github.com/progleic/examples/blob/main/08/read_and_sort_values.cpp)
+- [Stream-based I/O - sum values in a file (several variants)](https://github.com/progleic/examples/blob/main/08/ifstream_sum.cpp)
+- [Stream-based I/O - error recovery](https://github.com/progleic/examples/blob/main/08/error_recovery.cpp)
+
