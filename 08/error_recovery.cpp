@@ -5,8 +5,7 @@ using namespace std;
 int read_int() {
   int x;
   while (true) {
-    cin >> x;
-    if (cin.good())
+    if (cin >> x)
       break;
     cin.clear(); // clear error flag
     cin.ignore(1); // skip 1 character and try again
@@ -17,8 +16,7 @@ int read_int() {
 int read_int_v2() {
   int x;
   while (true) {
-    cin >> x;
-    if (cin.good())
+    if (cin >> x)
       break;
     cin.clear(); // clear error flag
     cin.ignore(std::numeric_limits<std::streamsize>::max(), 
