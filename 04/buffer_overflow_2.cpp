@@ -7,7 +7,7 @@ struct mydata {
 };
 
 int main() {
-  mydata d { { 1, 2, 3, 4 }, 0 };
+  mydata d = { { 1, 2, 3, 4 }, 0 };
 
   // For i = 4 we will have
   //  d.n += d.a[4]  <===> d.n += d.n !!
