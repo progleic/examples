@@ -64,6 +64,7 @@ or individually per each directory of examples.
 
 ## Template functions and structs
 
+- [`abs_diff` template function](https://github.com/progleic/examples/blob/main/07/abs_diff.cpp)
 - [`get_min_max_sum` template function](https://github.com/progleic/examples/blob/main/07/get_min_max_sum.cpp)
 - [`contains` template function](https://github.com/progleic/examples/blob/main/07/contains.cpp)
 - [Use of `std::sort` over `int` array](https://github.com/progleic/examples/blob/main/07/sort1.cpp)
