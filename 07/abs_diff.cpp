@@ -2,9 +2,9 @@ template <typename T>
 T abs_diff(T a, T b) {
   T r;
   if (a > b)
-    r = b - a;
-  else 
     r = a - b;
+  else 
+    r = b - a;
   return r;
 }
 
