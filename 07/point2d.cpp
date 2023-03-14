@@ -36,7 +36,7 @@ int main(void) {
                            {4, 8}};
     point2d<int> imid = midpoint(ipa, 4);
     std::cout << imid.x << ' ' << imid.y << std::endl;
-
+ 
     point2d<double> dpa[4] = { {  1.5,  2.5 },
                              { -2.5,  4.2 },
                              {  3.1, -6.3 },

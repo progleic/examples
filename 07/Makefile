@@ -1,6 +1,7 @@
 include ../Makefile.conf
 
-PROGRAMS=get_min_max_sum \
+PROGRAMS=abs_diff \
+         get_min_max_sum \
          contains \
          sort1 \
          sort2 \
