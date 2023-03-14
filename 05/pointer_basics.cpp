@@ -3,8 +3,10 @@ using namespace std;
 
 int main() {
   int v = 123;
-  int *p = &v;
+  int& r = v;
+  int* p = &v;
+  r = r + 1;
   *p = *p + 1; 
-  cout << p << ' ' << *p << ' ' << v << '\n';
+  cout << p << ' ' << *p << ' ' << r << ' ' << v << '\n';
   return 0;
 }
