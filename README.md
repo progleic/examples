@@ -45,7 +45,7 @@ or individually per each directory of examples.
 - [Pointers and arrays](https://github.com/progleic/examples/blob/main/05/pointers_and_arrays.cpp)
 - [Pointers and buffer overflows!](https://github.com/progleic/examples/blob/main/05/pointer_buffer_overflow.cpp)
 - [Arrays of pointers](https://github.com/progleic/examples/blob/main/05/arrays_of_pointers.cpp)
-- [`argc` and `argv` parameters for `main` (another array-of-pointers example](https://github.com/progleic/examples/blob/main/05/main_with_args.cpp)
+- [`argc` and `argv` parameters for `main` (another array-of-pointers example)](https://github.com/progleic/examples/blob/main/05/main_with_args.cpp)
 - [Pointers and `struct` types](https://github.com/progleic/examples/blob/main/05/pointers_and_structs.cpp)
 - [`nullptr`: the null pointer !](https://github.com/progleic/examples/blob/main/05/null_pointer.cpp)
 - [`envp` parameter for `main` (example of `nullptr` use)](https://github.com/progleic/examples/blob/main/05/main_with_env_args.cpp)
