@@ -18,10 +18,10 @@ namespace leic {
     }
     void add(const polynomial& p) {
       int n = std::min(coeffs.size(), p.coeffs.size());
-      for (int i = 0; i < n; i++) {
+      for (size_t i = 0; i < n; i++) {
         coeffs[i].add(p.coeffs[i]);
       }
-      for (int i = coeffs.size(); i < p.coeffs.size(); i++) {
+      for (size_t i = coeffs.size(); i < p.coeffs.size(); i++) {
         coeffs.push_back(p.coeffs[i]);
       }
       reduce();
@@ -55,7 +55,7 @@ namespace leic {
 
   std::ostream& operator<<(std::ostream& out, const polynomial& p) {
     out << p.coeffs.at(0);
-    for (int i = 1; i < p.coeffs.size(); i++) {
+    for (size_t i = 1; i < p.coeffs.size(); i++) {
       const fraction& f = p.coeffs.at(i);
       if (f.numerator() > 0) {
         out << "+" << f  << " x^" << i;;
