@@ -82,3 +82,11 @@ or individually per each directory of examples.
 - [Stream-based I/O - sum values in a file (several variants)](https://github.com/progleic/examples/blob/main/08/ifstream_sum.cpp)
 - [Stream-based I/O - error recovery](https://github.com/progleic/examples/blob/main/08/error_recovery.cpp)
 
+## Definition of classes
+
+- [`fraction`](https://github.com/progleic/examples/blob/main/09/fraction.hpp)
+- [Use of `fraction`](https://github.com/progleic/examples/blob/main/09/fraction_example.cpp)
+- [`polynomial`](https://github.com/progleic/examples/blob/main/09/polynomial.hpp)
+- [Use of `polynomial`](https://github.com/progleic/examples/blob/main/09/polynomial_example.cpp)
+
+
