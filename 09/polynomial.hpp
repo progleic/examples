@@ -7,8 +7,6 @@ namespace leic {
   public:
     polynomial(const std::vector<fraction>& c) 
     : coeffs(c) {
-      if (coeffs.empty()) // ensure 0 coefficient at least
-        coeffs.push_back( { 0, 1} ); 
       reduce();
     }    
     ~polynomial() { }
