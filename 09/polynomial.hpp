@@ -9,11 +9,13 @@ namespace leic {
     : coeffs(c) {
       reduce();
     }    
+
     ~polynomial() { }
 
     int degree() const {
       return coeffs.size() - 1;
     }
+
     void add(const polynomial& p) {
       size_t n = std::min(coeffs.size(), p.coeffs.size());
       for (size_t i = 0; i < n; i++) {
@@ -24,6 +26,7 @@ namespace leic {
       }
       reduce();
     }
+    
     fraction evaluate(const fraction& x) const {
       fraction r(0), pow(1);
       for (const fraction& c : coeffs) {

@@ -5,11 +5,19 @@ namespace leic {
   class fraction {
   public:
     // Constructors
-    fraction() : fraction(0) { }
-    fraction(const fraction& f) : fraction(f.num, f.den) { }
     fraction(int n, int d = 1) : num(n), den(d) {
       reduce();
     }
+
+    fraction() : fraction(0) { 
+
+    }
+
+    fraction(const fraction& f) : fraction(f.num, f.den) {
+
+     }
+
+
     // Destructor (empty, can be omitted)
     ~fraction() { }
     
@@ -17,14 +25,17 @@ namespace leic {
     int numerator() const {
       return num;
     }
+
     int denominator() const {
       return den;
     }
+
     void add(const fraction& f) {
       num = num * f.den + f.num * den;
       den = den * f.den;
       reduce();
     }
+
     void mul(const fraction& f) {
       num = num * f.num;
       den = den * f.den;
