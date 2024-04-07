@@ -11,7 +11,7 @@ $(LIBRARY): fraction.o polynomial.o
 fraction_example: $(LIBRARY) fraction_example.o
 	$(CXX) $(CXXFLAGS) -o fraction_example fraction_example.o $(LIBRARY)
 
-polynomial_example: fraction.o polynomial.o polynomial_example.o 
+polynomial_example: $(LIBRARY) polynomial_example.o 
 	$(CXX) $(CXXFLAGS) -o fraction_example polynomial_example.o $(LIBRARY)
 
 clean: 
