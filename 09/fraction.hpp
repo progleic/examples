@@ -1,3 +1,5 @@
+#ifndef __fraction_hpp__
+#define __fraction_hpp__
 #include <string>
 #include <iostream>
 
@@ -85,3 +87,4 @@ namespace leic {
     return out;
   }
 }
+#endif

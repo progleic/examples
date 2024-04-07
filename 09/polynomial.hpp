@@ -1,3 +1,5 @@
+#ifndef __polynomial_hpp__
+#define __polynomial_hpp__
 #include <iostream>
 #include <vector>
 #include "fraction.hpp"
@@ -66,5 +68,5 @@ namespace leic {
     }
     return out;
   }
-
 }
+#endif
