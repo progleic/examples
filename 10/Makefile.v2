@@ -1,0 +1,19 @@
+include ../Makefile.conf
+
+LIBRARY=libleic.a 
+PROGRAMS=fraction_example polynomial_example
+
+all: $(LIBRARY) $(PROGRAMS)
+
+$(LIBRARY): fraction.o polynomial.o
+	ar cr $(LIBRARY) fraction.o polynomial.o 
+
+fraction_example: $(LIBRARY) fraction_example.o
+	$(CXX) $(CXXFLAGS) -o fraction_example fraction_example.o $(LIBRARY)
+
+polynomial_example: fraction.o polynomial.o polynomial_example.o 
+	$(CXX) $(CXXFLAGS) -o fraction_example polynomial_example.o $(LIBRARY)
+
+clean: 
+	rm -f $(PROGRAMS) $(LIBRARY) *.o
+
