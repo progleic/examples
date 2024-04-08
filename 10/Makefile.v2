@@ -12,7 +12,7 @@ fraction_example: $(LIBRARY) fraction_example.o
 	$(CXX) $(CXXFLAGS) -o fraction_example fraction_example.o $(LIBRARY)
 
 polynomial_example: $(LIBRARY) polynomial_example.o 
-	$(CXX) $(CXXFLAGS) -o fraction_example polynomial_example.o $(LIBRARY)
+	$(CXX) $(CXXFLAGS) -o polynomial_example polynomial_example.o $(LIBRARY)
 
 clean: 
 	rm -f $(PROGRAMS) $(LIBRARY) *.o
