@@ -97,4 +97,3 @@ or individually per each directory of examples.
 - [Use of `fraction`](https://github.com/progleic/examples/blob/main/10/fraction_example.cpp)
 - [Use of `polynomial`](https://github.com/progleic/examples/blob/main/10/polynomial_example.cpp)
 - [Makefile illustrating separate compilation](https://github.com/progleic/examples/blob/main/10/Makefile)
-- [Makefile variation illustrating definition and use of static library](https://github.com/progleic/examples/blob/main/10/Makefile.v2)
