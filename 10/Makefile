@@ -1,6 +1,9 @@
 include ../Makefile.conf
 
+
 all: fraction_example polynomial_example 
+%.o: fraction.hpp polynomial.hpp %.cpp
+	$(CXX) $(CXXFLAGS) -c -o $*.o $*.cpp
 libleic.a: fraction.o polynomial.o
 	ar cr libleic.a fraction.o polynomial.o 
 fraction_example: libleic.a fraction_example.o
