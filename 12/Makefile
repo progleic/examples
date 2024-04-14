@@ -7,5 +7,5 @@ shapes: coord2d.o shapes.o
 	$(CXX) $(CXXFLAGS) -o shapes shapes.o coord2d.o
 
 clean: 
-	rm -f  shape person_and_teacher *.o 
+	rm -f  shapes person_and_teacher *.o 
 
