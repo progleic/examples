@@ -1,6 +1,9 @@
 
 #include <cassert>
+#include <cmath>
 #include "shapes.hpp"
+
+using namespace std;
 
 namespace leic
 {
@@ -44,7 +47,7 @@ namespace leic
     }
 
     // polygon
-    polygon::polygon(const std::vector<coord2d> &v) : points(v)
+    polygon::polygon(const vector<coord2d> &v) : points(v)
     {
         assert(points.size() > 2);
     }
@@ -126,7 +129,7 @@ namespace leic
         for (shape *s : shapes)
             s->move(movement);
     }
-    std::vector<shape *> &drawing::get_shapes()
+    vector<shape *> &drawing::get_shapes()
     {
         return shapes;
     }
