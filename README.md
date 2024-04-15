@@ -92,8 +92,20 @@ or individually per each directory of examples.
 
 ## Separate compilation
 
+- [Makefile illustrating separate compilation](https://github.com/progleic/examples/blob/main/10/Makefile)
 - `fraction`: [header](https://github.com/progleic/examples/blob/main/10/fraction.hpp), [implementation](https://github.com/progleic/examples/blob/main/10/fraction.cpp)
 - `polynomial`: [header](https://github.com/progleic/examples/blob/main/10/polynomial.hpp), [implementation](https://github.com/progleic/examples/blob/main/10/polynomial.cpp)
 - [Use of `fraction`](https://github.com/progleic/examples/blob/main/10/fraction_example.cpp)
 - [Use of `polynomial`](https://github.com/progleic/examples/blob/main/10/polynomial_example.cpp)
-- [Makefile illustrating separate compilation](https://github.com/progleic/examples/blob/main/10/Makefile)
+
+## Template classes
+
+- `simple_vector`: [definition](https://github.com/progleic/examples/blob/main/11/simple_vector.hpp) 
+and [test program](https://github.com/progleic/examples/blob/main/11/vector_example)
+- `pair`: [definition](https://github.com/progleic/examples/blob/main/11/pair.hpp) 
+and [test program](https://github.com/progleic/examples/blob/main/11/pair_example)
+
+## Class inheritance
+
+- `person` and `teacher` example: [header](https://github.com/progleic/examples/blob/main/12/persons.hpp), [implementation](https://github.com/progleic/examples/blob/main/12/persons.cpp), and [small test program](https://github.com/progleic/examples/blob/main/12/test_persons.cpp)
+- `shape` abstract class example: [header](https://github.com/progleic/examples/blob/main/12/shapes.hpp), [implementation](https://github.com/progleic/examples/blob/main/12/shapes.cpp), and [small test program](https://github.com/progleic/examples/blob/main/12/test_shapes.cpp)
