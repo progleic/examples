@@ -51,4 +51,9 @@ namespace leic
         r *= f;
         return r;
     }
+    std::ostream &operator<<(std::ostream &out, const coord2d &c)
+    {
+        out << '(' << c.get_x() << ',' << c.get_y() << ')';
+        return out;
+    }
 }
