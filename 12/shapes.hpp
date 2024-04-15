@@ -1,10 +1,10 @@
 #ifndef __leic_shapes_hpp__
 #define __leic_shapes_hpp__
 #include "coord2d.hpp"
+#include <vector>
 
 namespace leic
 {
-
     //! Abstract class for shapes.
     class shape
     {

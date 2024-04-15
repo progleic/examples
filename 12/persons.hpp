@@ -22,7 +22,6 @@ class teacher : public person
 {
 private:
     std::string tdepartment;
-
 public:
     teacher(int id, const std::string &name,
             const std::string &dept);
