@@ -170,10 +170,10 @@ namespace leic
             // "Shoelace" formula
             // https://en.wikipedia.org/wiki/Shoelace_formula
             double a = 0;
-            for (int i = 0; i < points.size(); i++)
+            for (size_t i = 0; i < points.size(); i++)
             {
-                const coord2d &p1 = points.at(i);
-                const coord2d &p2 = points.at((i + 1) % points.size());
+                coord2d p1 = points.at(i);
+                coord2d p2 = points.at((i + 1) % points.size());
                 a += p1.get_x() * p2.get_y() - p1.get_y() * p2.get_x();
             }
             return fabs(a) * 0.5;
