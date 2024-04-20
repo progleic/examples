@@ -10,11 +10,13 @@ namespace leic {
     polynomial(const std::vector<fraction>& c);
     ~polynomial();
     int degree() const;
-    polynomial& operator=(const polynomial& p);
     bool operator==(const polynomial& p) const;
     bool operator!=(const polynomial& p) const;
-    polynomial operator+(const polynomial& p) const;
+    polynomial& operator=(const polynomial& p);
     polynomial& operator+=(const polynomial& p);
+    polynomial operator+(const polynomial& p) const;
+    const fraction& operator[](size_t index) const;
+    fraction& operator[](size_t index);
     fraction evaluate(const fraction& x) const;
   private:
     std::vector<fraction> coeffs;

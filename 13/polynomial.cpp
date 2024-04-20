@@ -10,15 +10,15 @@ namespace leic {
   int polynomial::degree() const {
     return coeffs.size() - 1;
   }
-  polynomial& polynomial::operator=(const polynomial& p) {
-    coeffs = p.coeffs;
-    return *this;
-  }
   bool polynomial::operator==(const polynomial& p) const {
     return coeffs == p.coeffs; // use operator== in vector
   }
   bool polynomial::operator!=(const polynomial& p) const {
     return coeffs != p.coeffs; // use operator!= in vector
+  }
+  polynomial& polynomial::operator=(const polynomial& p) {
+    coeffs = p.coeffs; // use operator= in vector
+    return *this;
   }
   polynomial& polynomial::operator+=(const polynomial& p) {
     size_t n = std::min(coeffs.size(), p.coeffs.size());
@@ -36,11 +36,17 @@ namespace leic {
     r += p;
     return r;
   }
+  const fraction& polynomial::operator[](size_t index) const {
+    return coeffs[index]; // use operator[] in vector (const variant)
+  }
+  fraction& polynomial::operator[](size_t index) {
+    return coeffs[index]; // use operator[] in vector (non-const variant)
+  }
   fraction polynomial::evaluate(const fraction& x) const {
     fraction r(0), pow(1);
     for (const fraction& c : coeffs) {
-      r += c * pow;
-      pow *= x;
+      r += c * pow; // uses fraction::operator+=
+      pow *= x; // uses fraction::operator*=
     }
     return r;
   }

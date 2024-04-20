@@ -27,7 +27,7 @@ namespace leic {
     return num == f.num && den == f.den;
   }
   bool fraction::operator!=(const fraction& f) const {
-    return ! (*this == f);
+    return ! (*this == f); // calls operator==
   }
   bool fraction::operator<(const fraction& f) const {
     return num * f.den - f.num * den < 0;
@@ -36,10 +36,10 @@ namespace leic {
     return num * f.den - f.num * den <= 0;
   }
   bool fraction::operator>(const fraction& f) const {
-    return ! (*this <= f);
+    return ! (*this <= f); // calls operator<=
   }
   bool fraction::operator>=(const fraction& f) const {
-     return ! (*this < f);
+     return ! (*this < f); // calls operator<
   }
   fraction& fraction::operator=(const fraction& f) {
     num = f.num;
