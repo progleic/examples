@@ -109,3 +109,11 @@ and [test program](https://github.com/progleic/examples/blob/main/11/pair_exampl
 
 - `person` and `teacher` example: [header](https://github.com/progleic/examples/blob/main/12/persons.hpp), [implementation](https://github.com/progleic/examples/blob/main/12/persons.cpp), and [small test program](https://github.com/progleic/examples/blob/main/12/test_persons.cpp)
 - `shape` abstract class example: [header](https://github.com/progleic/examples/blob/main/12/shapes.hpp), [implementation](https://github.com/progleic/examples/blob/main/12/shapes.cpp), and [small test program](https://github.com/progleic/examples/blob/main/12/test_shapes.cpp)
+
+
+## Operator overloading
+
+- `fraction`: [header](https://github.com/progleic/examples/blob/main/13/fraction.hpp), [implementation](https://github.com/progleic/examples/blob/main/13/fraction.cpp)
+- `polynomial`: [header](https://github.com/progleic/examples/blob/main/13/polynomial.hpp), [implementation](https://github.com/progleic/examples/blob/main/13/polynomial.cpp)
+- [Use of `fraction`](https://github.com/progleic/examples/blob/main/13/fraction_example.cpp)
+- [Use of `polynomial`](https://github.com/progleic/examples/blob/main/13/polynomial_example.cpp)
