@@ -1,6 +1,6 @@
 # Examples [![Run on Repl.it](run_on_replit.svg)](https://repl.it/github/progleic/examples)
 
-[Programação (LEIC.009)](https://moodle.up.pt/course/view.php?id=2030) @ [LEIC](https://paginas.fe.up.pt/~estudar/cursos/licenciatura-engenharia-informatica/)
+[Programação (LEIC.009)](https://moodle2324.up.pt/course/view.php?id=5284) @ [LEIC](https://paginas.fe.up.pt/~estudar/cursos/licenciatura-engenharia-informatica/)
 
 To compile the programs, execute `make` at the top level directory
 or individually per each directory of examples.
