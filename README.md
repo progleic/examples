@@ -117,3 +117,16 @@ and [test program](https://github.com/progleic/examples/blob/main/11/pair_exampl
 - `polynomial`: [header](https://github.com/progleic/examples/blob/main/13/polynomial.hpp), [implementation](https://github.com/progleic/examples/blob/main/13/polynomial.cpp)
 - [Use of `fraction`](https://github.com/progleic/examples/blob/main/13/fraction_example.cpp)
 - [Use of `polynomial`](https://github.com/progleic/examples/blob/main/13/polynomial_example.cpp)
+
+## STL
+
+- [Using `std::deque`](https://github.com/progleic/examples/blob/main/14/deque_example.cpp)
+- [Iterators and `std::vector`](https://github.com/progleic/examples/blob/main/14/vector_iterators.cpp)
+- [Reverse iterator example](https://github.com/progleic/examples/blob/main/14/reverse_iterator_example.cpp)
+- [Iterators and use of `erase`](https://github.com/progleic/examples/blob/main/14/erase_example.cpp)
+- [Use of `std::sort`](https://github.com/progleic/examples/blob/main/14/sorting_examples.cpp)
+- [Use of `std::sort` (2)](https://github.com/progleic/examples/blob/main/14/sorting_examples2.cpp)
+- [Use of `set`](https://github.com/progleic/examples/blob/main/14/set_example.cpp)
+- [Use of `map`](https://github.com/progleic/examples/blob/main/14/map_example.cpp)
+- [Use of `multiset`](https://github.com/progleic/examples/blob/main/14/multiset_example.cpp)
+- [Use of `multimap`](https://github.com/progleic/examples/blob/main/14/multimap_example.cpp)

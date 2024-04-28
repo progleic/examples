@@ -2,17 +2,15 @@ include ../Makefile.conf
 
 PROGRAMS = \
 deque_example \
-emplace_example \
-iterator_example \
-iterator_example2 \
+erase_example \
 map_example \
-map_example2 \
 multimap_example \
 multiset_example \
+reverse_iterator_example \
 set_example \
-set_example2 \
 sorting_examples \
-sorting_examples2 
+sorting_examples2 \
+vector_iterators
 
 all: $(PROGRAMS)
 
