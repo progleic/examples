@@ -1,11 +1,11 @@
-
 #include <iostream>
 #include <list>
 #include <vector>
 #include <algorithm>
+using namespace std;
 
 int main(int argc, char** argv) {
-    std::list<int> c {  2, 0, 1, 0, 2 };
+    list<int> c {  2, 0, 1, 0, 2 };
     auto itr = c.begin();
     while (itr != c.end()) {
         if (*itr == 0) {
@@ -15,6 +15,8 @@ int main(int argc, char** argv) {
         }
     }
     // Implicit use of iterator
-    for (int v : c) { std::cout << v << std::endl;}
+    for (int v : c) { 
+        cout << v << '\n'; 
+    }
     return 0;
 }
