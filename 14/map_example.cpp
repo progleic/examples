@@ -17,7 +17,7 @@ int main() {
     }
     for (auto kv: m) {
         cout << kv.first << " --> "
-                  << kv.second << '\n';
+             << kv.second << '\n';
     }
     return 0;
 }
