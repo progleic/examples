@@ -10,6 +10,9 @@ int main(int argc, char** argv) {
         itr++) {
         *itr = *itr + 1;
     }
+    for (int& v : c) {
+        v++;
+    }
     // Reverse iterator
     for(auto itr = c.rbegin();
         itr != c.rend();
