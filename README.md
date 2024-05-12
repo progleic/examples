@@ -131,3 +131,13 @@ and [test program](https://github.com/progleic/examples/blob/main/11/pair_exampl
 - [Use of `map`](https://github.com/progleic/examples/blob/main/14/map_example.cpp)
 - [Use of `multiset`](https://github.com/progleic/examples/blob/main/14/multiset_example.cpp)
 - [Use of `multimap`](https://github.com/progleic/examples/blob/main/14/multimap_example.cpp)
+
+
+## Exceptions
+
+- [`throw` and `try`-`catch` (same function)](https://github.com/progleic/examples/blob/main/15/example1.cpp)
+- [Using `throw` and `try`-`catch` (different functions)](https://github.com/progleic/examples/blob/main/15/example2.cpp)
+- [Use of exceptions in classes](https://github.com/progleic/examples/blob/main/15/example3.cpp)
+- [Defining a new exception class](https://github.com/progleic/examples/blob/main/15/example4.cpp)
+- [Multiple `catch` blocks](https://github.com/progleic/examples/blob/main/15/example5.cpp)
+
