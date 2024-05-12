@@ -3,6 +3,7 @@ include ../Makefile.conf
 PROGRAMS = \
 deque_example \
 erase_example \
+erase_and_insert \
 map_example \
 multimap_example \
 multiset_example \
