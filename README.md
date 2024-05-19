@@ -141,3 +141,11 @@ and [test program](https://github.com/progleic/examples/blob/main/11/pair_exampl
 - [Defining a new exception class](https://github.com/progleic/examples/blob/main/15/example4.cpp)
 - [Multiple `catch` blocks](https://github.com/progleic/examples/blob/main/15/example5.cpp)
 
+## Function objects and lambda expressions
+
+- [Interval example using function objects](https://github.com/progleic/examples/blob/main/16/function_object.cpp)
+- [Lambda expressions - a first example](https://github.com/progleic/examples/blob/main/16/lambda1.cpp)
+- [Interval example using lambda expressions](https://github.com/progleic/examples/blob/main/16/lambda2.cpp)
+- [Lambda expressions - capture by value vs. capture by reference](https://github.com/progleic/examples/blob/main/16/lambda3.cpp)
+- [Lambda expressions - variable update with capture by reference](https://github.com/progleic/examples/blob/main/16/lambda4.cpp)
+
