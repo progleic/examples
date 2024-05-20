@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-  auto f = []  (int x, int y) -> int { return x * x + y; };
+  auto f = []  (int x, int y) { return x * x + y; };
   cout << f(1, 1) << ' ' << f(1, 2) << ' ' << f(2, 2) << '\n';
   return 0;
 
